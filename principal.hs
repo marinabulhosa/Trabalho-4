@@ -1,6 +1,5 @@
 module Main where
 
-
 data Contato = Contato {nome :: [Char], telefone :: Integer, endereco :: [Char], relacao :: [Char]} deriving Show 
 
 type Agenda = [Contato]
